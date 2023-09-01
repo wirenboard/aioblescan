@@ -1,4 +1,4 @@
-python3-aioblescan (0.2.14+wb100) stable; urgency=medium
+python3-aioblescan (0.2.14) stable; urgency=medium
 
   * Add debian packaging
 
