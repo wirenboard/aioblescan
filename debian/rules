@@ -1,0 +1,7 @@
+#!/usr/bin/make -f
+
+export PYBUILD_NAME=python3-aioblescan
+export PYBUILD_DESTDIR_python3=debian/python3-aioblescan/
+
+%:
+	dh $@ --with python3 --buildsystem=pybuild
